@@ -1,0 +1,5 @@
+
+        func foo(x int, y float){
+            var z int = y;
+        }
+        

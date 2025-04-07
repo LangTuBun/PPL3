@@ -1,0 +1,5 @@
+
+            var a int;
+            func b(){};
+            const a int = 1
+        

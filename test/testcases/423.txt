@@ -1,0 +1,4 @@
+var a int;
+                func main(){
+                    a = 5.5;
+                };

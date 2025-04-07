@@ -1,0 +1,7 @@
+type Person struct{};
+                var p Person;
+                //func (p Person) greet() {
+                //};
+                func main() {
+                    p.greet();
+                }

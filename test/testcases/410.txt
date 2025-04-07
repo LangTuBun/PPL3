@@ -1,0 +1,4 @@
+type a interface{
+                    getName(a int) ;
+                    getName(a int, b int, c float);
+                };

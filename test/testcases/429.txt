@@ -1,0 +1,7 @@
+type a struct{};
+                type b interface{};
+                func main(){
+                    var x a;
+                    var y b;
+                    y := x;
+                };

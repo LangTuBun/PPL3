@@ -1,0 +1,5 @@
+var a [0]int;
+                var b [10]int;
+                func main(){
+                    a := b;
+                };

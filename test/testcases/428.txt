@@ -1,0 +1,5 @@
+var a [5] int;
+                var b [5] float;
+                func main(){
+                    a := b;
+                };

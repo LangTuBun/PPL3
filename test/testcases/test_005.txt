@@ -1,0 +1,6 @@
+
+            func foo(x int) {
+                var y int = x + 1;
+                var z float = y + 1.5;  // Valid type conversion
+            }
+        

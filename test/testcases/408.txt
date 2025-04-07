@@ -1,0 +1,1 @@
+type a interface{}; type a interface {};

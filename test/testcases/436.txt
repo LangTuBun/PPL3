@@ -1,0 +1,4 @@
+func main(){
+                    for i := "str"; i < 10; i += 1 {
+                    }
+                };

@@ -1,0 +1,4 @@
+func a(){};
+                func main(){
+                    a := a();
+                };

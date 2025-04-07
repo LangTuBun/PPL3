@@ -1,0 +1,8 @@
+
+            func foo(){
+                var a int = 5;
+                if (true){
+                    var a float = 3.14;
+                }
+            }
+        
