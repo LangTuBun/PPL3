@@ -1,0 +1,10 @@
+
+        func main() {
+            var a tinhyeu;
+            a := tinhyeu{love: 1, hate: true};
+        }
+            type tinhyeu struct {
+                love int;
+                hate boolean;
+            }
+        

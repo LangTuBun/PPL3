@@ -1,0 +1,11 @@
+
+            func alotOfArguments(a int, b float, c string) {
+                var d int;
+                d := a + 5;
+            }
+
+            func main() {
+                var a int;
+                alotOfArguments(2.1, 0, "string");
+            }
+        

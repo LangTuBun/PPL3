@@ -1,0 +1,6 @@
+
+            type A struct {}
+            func (x A) a() {
+                x.b();
+            }
+        

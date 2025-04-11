@@ -1,0 +1,4 @@
+
+                var VoTien int = 1; 
+                const VoTien int = 2;
+            

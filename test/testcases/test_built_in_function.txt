@@ -1,0 +1,7 @@
+
+            func main() {
+                var a int;
+                a := getInt();
+                putInt(a);
+            }
+        

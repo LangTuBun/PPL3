@@ -1,7 +1,4 @@
-
-            func foo(){
-                for i := 0; i < 10; i += 1 {
-                    var a int = i;
-                }
-            }
-        
+func main(){
+                    for i := "str"; i < 10; i += 1 {
+                    };
+                };

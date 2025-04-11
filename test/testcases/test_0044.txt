@@ -1,0 +1,1 @@
+Program([ConstDecl(luukimLKNG,IntLiteral(1)),FuncDecl(luukimLKNG,[],VoidType,Block([Return()]))])

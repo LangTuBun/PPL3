@@ -1,0 +1,1 @@
+Program([StructType(S1,[(bena,IntType)],[]),MethodDecl(s,Id(S1),FuncDecl(bena,[],IntType,Block([MethodCall(Id(s),bena,[]),Return(IntLiteral(1))])))])

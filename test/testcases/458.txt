@@ -1,0 +1,7 @@
+
+            func main() {
+                var a int;
+                const b int = 5;
+                a := 5 + b;
+            }
+        

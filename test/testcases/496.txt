@@ -1,0 +1,6 @@
+
+            func main() {
+                var a int;
+                a := 5 + 4.0;
+                putInt(a);
+            }

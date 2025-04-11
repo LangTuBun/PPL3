@@ -1,0 +1,1 @@
+Program([InterfaceType(luukimLKNG,[Prototype(luukimLKNG,[],VoidType),Prototype(luukimLKNG,[IntType],VoidType)])])

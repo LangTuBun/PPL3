@@ -1,0 +1,6 @@
+
+            func main() {
+                a := nil;
+                var b int = 1;
+            }
+        

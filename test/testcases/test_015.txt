@@ -1,0 +1,1 @@
+Program([StructType(LKNG,[(bena,IntType)],[]),MethodDecl(v,Id(LKNG),FuncDecl(getInt,[],VoidType,Block([ConstDecl(c,FieldAccess(Id(v),bena)),VarDecl(d,FieldAccess(Id(v),LKNG))])))])

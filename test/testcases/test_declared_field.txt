@@ -1,0 +1,8 @@
+type A struct{
+                    x int;
+                    y int;
+                };
+                func b(){
+                    var a A;
+                    a.x := 5;
+                };

@@ -1,0 +1,4 @@
+func a(b int, c float){};
+                func main(){
+                    a(1);
+                };

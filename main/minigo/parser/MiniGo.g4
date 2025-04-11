@@ -136,7 +136,7 @@ declaration: (constDecl | varDecl | typeDecl | funcDecl | methodDecl) endOfSente
 
 
 constDecl
-    : CONST ID ASSIGN expression  
+    : CONST ID typeName ASSIGN expression  
     ;
 
 
@@ -212,7 +212,7 @@ result
 block: L_CURLY R_CURLY | L_CURLY statementList R_CURLY ;
 
 statementList : statement  statementList_tail;
-statementList_tail: |   statement  statementList_tail;
+statementList_tail: |   statement  statementList_tail ;
 
 
 

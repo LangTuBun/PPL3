@@ -1,0 +1,1 @@
+Program([FuncDecl(bena,[ParDecl(a,IntType),ParDecl(a,IntType)],VoidType,Block([Return()]))])

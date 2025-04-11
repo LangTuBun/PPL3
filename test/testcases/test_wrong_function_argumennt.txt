@@ -1,0 +1,4 @@
+func a(b int){};
+                func main(){
+                    a("string");
+                };

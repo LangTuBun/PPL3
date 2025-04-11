@@ -1,0 +1,5 @@
+
+                var a [5] int;
+            func main(){
+                a["string"] := 5;
+            }

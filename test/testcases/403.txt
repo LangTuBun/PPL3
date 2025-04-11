@@ -1,1 +1,1 @@
-func foo(a int) int {} func foo(a int) int {}
+func a(){}; func b(){}; func a(){};

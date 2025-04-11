@@ -1,1 +1,1 @@
-Program([VarDecl(a,IntType,Id(b))])
+func a(b int, b int){};

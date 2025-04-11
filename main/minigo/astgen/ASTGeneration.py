@@ -46,11 +46,16 @@ class ASTGeneration(MiniGoVisitor):
         else:  # Must be methodDecl
             return self.visit(ctx.methodDecl())
     
-    def visitConstDecl(self, ctx:MiniGoParser.ConstDeclContext):
+    def visitConstDecl(self, ctx: MiniGoParser.ConstDeclContext):
         name = ctx.ID().getText()
         expr = self.visit(ctx.expression())
+        const_type = None # Default to None
+        if ctx.typeName(): # Check if the optional type_ rule exists in the context
+            const_type = self.visit(ctx.typeName())
 
-        return ConstDecl(name, None, expr)
+      
+        return ConstDecl(conName=name, conType=const_type, iniExpr=expr)
+
 
     def visitVarDecl(self, ctx:MiniGoParser.VarDeclContext):
         return self.visit(ctx.varSpec())
@@ -229,8 +234,7 @@ class ASTGeneration(MiniGoVisitor):
         op = ctx.assignOperations().getText()
         rhs = self.visit(ctx.expression())
 
-        print("LHS: ",lhs)
-        print("RHS: ",rhs)
+
         if op != '=':
             binary_op = op[0]
             new_rhs = BinaryOp(binary_op, lhs, rhs)
@@ -242,7 +246,7 @@ class ASTGeneration(MiniGoVisitor):
         lhs = self.visit(ctx.oneValue())
         expr = self.visit(ctx.expression())
 
-            
+        
 
         return Assign(lhs,  expr)
             
@@ -505,8 +509,8 @@ class ASTGeneration(MiniGoVisitor):
             if isinstance(base, FieldAccess):
                 return MethCall(base.receiver, base.field, args)
             elif isinstance(base, Id):
-                print("Hello")
-                print(base.name)
+
+       
                 return FuncCall(base.name, args)
             else:
                 raise ValueError("Base must be fieldacces or Id")
@@ -536,7 +540,7 @@ class ASTGeneration(MiniGoVisitor):
             return BooleanLiteral(val == 'true')
 
         elif ctx.STRING_LIT():
-            print("STRINGLITTTT: ", ctx.STRING_LIT().getText())
+          
             return StringLiteral(ctx.STRING_LIT().getText())
 
         elif ctx.FLOAT_LIT():
@@ -572,11 +576,11 @@ class ASTGeneration(MiniGoVisitor):
             dimensions = arr_type.dimens
             ele_type = arr_type.eleType
             values = []
-            print(f"Values: {values}")
+        
             if ctx.compositeLiteralValue().elementList():
                 values = self.visit(ctx.compositeLiteralValue().elementList())
             
-            print(f"Values: {values}")
+
             return ArrayLiteral(dimensions, ele_type, values)
 
     def visitElementList(self, ctx:MiniGoParser.ElementListContext):

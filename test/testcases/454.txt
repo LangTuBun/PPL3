@@ -1,0 +1,6 @@
+
+            var a [5] int;
+            func main() {
+                a := [5]int{1, 2, 3};
+            }
+        

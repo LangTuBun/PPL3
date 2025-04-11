@@ -1,0 +1,6 @@
+
+            var a [5] boolean;
+            func main() {
+                a := [5]boolean{true,2,true,false,true};
+            }
+        

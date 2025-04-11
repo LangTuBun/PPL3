@@ -1,0 +1,9 @@
+
+            type A struct {
+                x [5] int;
+            }
+
+            func main() {
+                var a A = A{x: [5]int{1, 2, 3, 4, 5}};
+            }
+        

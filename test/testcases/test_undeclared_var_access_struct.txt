@@ -1,0 +1,5 @@
+type a struct{
+                    x int;
+                    y int;
+                };
+                func b(){c.x := 5;};

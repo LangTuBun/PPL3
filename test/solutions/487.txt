@@ -1,0 +1,1 @@
+Type Mismatch: FuncCall(alotOfArguments,[FloatLiteral(2.1),IntLiteral(0),StringLiteral("string")])

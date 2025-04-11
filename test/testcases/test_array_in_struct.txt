@@ -1,0 +1,10 @@
+
+            type A struct {
+                x [5] int;
+            }
+
+            func main() {
+                var a A;
+                a.x[0] := 5;
+            }
+        

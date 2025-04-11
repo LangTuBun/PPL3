@@ -1,0 +1,6 @@
+
+            const a int = 5;
+            const b float = 3.14;
+            const c string = "hello";
+            const d boolean = true;
+        

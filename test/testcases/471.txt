@@ -1,0 +1,12 @@
+
+            type A struct {}
+            type B interface {
+                a()
+            }
+            func (x A) a() {}
+            func main() {
+                var a A;
+                var b B;
+                a := b ;
+            }
+        

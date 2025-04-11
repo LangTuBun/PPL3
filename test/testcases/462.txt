@@ -1,0 +1,8 @@
+
+            type A struct {
+                a int;
+            }
+            func (x A) foo() {
+                var d = x.b;
+            }
+        

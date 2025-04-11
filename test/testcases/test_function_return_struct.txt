@@ -1,0 +1,15 @@
+
+            type A struct {
+                x int;
+                y float;
+            }
+
+            func returnStruct() A {
+                return A{x: 1, y: 2.0};
+            }
+
+            func main() {
+                var a A;
+                a := returnStruct();
+            }
+        

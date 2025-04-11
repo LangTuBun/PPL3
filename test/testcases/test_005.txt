@@ -1,6 +1,1 @@
-
-            func foo(x int) {
-                var y int = x + 1;
-                var z float = y + 1.5;  // Valid type conversion
-            }
-        
+Program([FuncDecl(luukimLKNG,[],VoidType,Block([Return()])),VarDecl(luukimLKNG,IntLiteral(1))])

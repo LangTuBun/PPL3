@@ -1,0 +1,4 @@
+func main(){
+                    var a string = "string";
+                    var b int = -a;
+                }

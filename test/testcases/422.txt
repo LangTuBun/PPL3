@@ -1,5 +1,5 @@
 
                 func main(){
-                    var a float ;
+                    var a float;
                     a := 5;
                 };

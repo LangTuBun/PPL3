@@ -1,1 +1,1 @@
-Type Mismatch: Id(c)
+Type Mismatch: FieldAccess(Id(c),x)

@@ -1,0 +1,4 @@
+
+                var luukimLKNG int = 1; 
+                const luukimLKNG int = 2;
+            

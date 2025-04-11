@@ -1,0 +1,10 @@
+
+            func main() {
+                var a boolean;
+                var b boolean;
+                a := 1 < 2
+                a := 3.14 > 2.71
+                a := "a" == "b"
+                a := 1.0 < 2;
+            }
+        

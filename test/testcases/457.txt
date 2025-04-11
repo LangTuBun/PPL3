@@ -1,0 +1,10 @@
+
+            type A struct {
+                x int;
+                y int;
+            }
+            const A int = 5;
+            type A struct {
+                z int;
+            }
+        

@@ -1,0 +1,6 @@
+
+            func main() {
+                var a string;
+                a := "Hello" + "World";
+                putString(a);
+            }
